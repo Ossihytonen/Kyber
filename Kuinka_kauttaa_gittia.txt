@@ -1,0 +1,153 @@
+
+K9447@ICT-421-WS-17 MINGW64 ~
+$ ls
+AppData/
+'Application Data'@
+'Cisco Packet Tracer 6.2sv'/
+'Cisco Packet Tracer 7.0'/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+'Local Settings'@
+Music/
+'My Documents'@
+NTUSER.DAT
+NTUSER.DAT{3842aaa8-645c-11e6-97b3-da114f9f1995}.TxR.0.regtrans-ms
+NTUSER.DAT{3842aaa8-645c-11e6-97b3-da114f9f1995}.TxR.1.regtrans-ms
+NTUSER.DAT{3842aaa8-645c-11e6-97b3-da114f9f1995}.TxR.2.regtrans-ms
+NTUSER.DAT{3842aaa8-645c-11e6-97b3-da114f9f1995}.TxR.blf
+NTUSER.DAT{3842aaa9-645c-11e6-97b3-da114f9f1995}.TM.blf
+NTUSER.DAT{3842aaa9-645c-11e6-97b3-da114f9f1995}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{3842aaa9-645c-11e6-97b3-da114f9f1995}.TMContainer00000000000000000002.regtrans-ms
+NetHood@
+Pictures/
+PrintHood@
+Recent@
+'Saved Games'/
+SendTo@
+'Start Menu'@
+Templates@
+Videos/
+_viminfo
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+ntuser.pol
+
+K9447@ICT-421-WS-17 MINGW64 ~
+$ cd D:
+
+K9447@ICT-421-WS-17 MINGW64 /d
+$ ld
+bash: ld: command not found
+
+K9447@ICT-421-WS-17 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/  'System Volume Information'/
+H8545/           Win10-EDU-1607/
+H9132/           _SMSTaskSequence/
+K1735/           ccmcache/
+K3234/           h3841/
+K8140/           k8305/
+K8410/           k8838/
+K8504/           kansio/
+K8623/           kulTom/
+K8817_PE/        ohjeita_eri_kirjoitustilanteisiin.docx
+K9074/           rivitys.docx
+K9326/           'terveisi'$'\303\244'' narniasta'/
+K9456/           vmcopylogs/
+Piiju_TIA/
+
+K9447@ICT-421-WS-17 MINGW64 /d
+$ mkdir Ossi
+
+K9447@ICT-421-WS-17 MINGW64 /d
+$ cd Ossi
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi
+$ ls
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi
+$ git clone https://github.com/Ossihytonen/Kyber.git
+Cloning into 'Kyber'...
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 15 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (15/15), done.
+Checking connectivity... done.
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi
+$ ls
+Kyber/
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi
+$ cd kyber
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$ ls
+README.md
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$ git add README.md
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$ git commit -m "edit readme.md"
+[master 8288fca] edit readme.md
+ Committer: Ossi HytÃ¶nen <K9447@LABRANET.JAMK.FI>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Ossihytonen/Kyber.git
+   ed6d585..8288fca  master -> master
+
+K9447@ICT-421-WS-17 MINGW64 /d/Ossi/kyber (master)
+$
