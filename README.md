@@ -8,4 +8,9 @@
 
 ###Alaotsikko
 
+| Matka-aika | Hinta |
+|:-----------|------:|
+| 2 Tuntia | 8 euroa |
+| 4 Tuntia | 20 euroa |
+
 ![](https://upload.wikimedia.org/wikipedia/commons/2/2b/Ylisto_silta.jpg)
